@@ -1,0 +1,39 @@
+## PersistentScheduler:
+[2019-09-30 16:28:05,487: INFO/MainProcess] Scheduler: Sending due task task_33 (main.run)
+[2019-09-30 16:28:05,488: INFO/MainProcess] Scheduler: Sending due task task_2 (main.run)
+[2019-09-30 16:28:05,490: INFO/MainProcess] Scheduler: Sending due task task_6 (main.run)
+[2019-09-30 16:28:05,492: INFO/MainProcess] Scheduler: Sending due task task_17 (main.run)
+[2019-09-30 16:28:05,493: INFO/MainProcess] Scheduler: Sending due task task_24 (main.run)
+[2019-09-30 16:28:05,495: INFO/MainProcess] Scheduler: Sending due task task_47 (main.run)
+[2019-09-30 16:28:05,497: INFO/MainProcess] Scheduler: Sending due task task_20 (main.run)
+[2019-09-30 16:28:05,498: INFO/MainProcess] Scheduler: Sending due task task_3 (main.run)
+[2019-09-30 16:28:05,500: INFO/MainProcess] Scheduler: Sending due task task_5 (main.run)
+[2019-09-30 16:28:05,501: INFO/MainProcess] Scheduler: Sending due task task_19 (main.run)
+[2019-09-30 16:28:05,503: INFO/MainProcess] Scheduler: Sending due task task_1 (main.run)
+[2019-09-30 16:28:05,504: INFO/MainProcess] Scheduler: Sending due task task_9 (main.run)
+[2019-09-30 16:28:05,506: INFO/MainProcess] Scheduler: Sending due task task_45 (main.run)
+[2019-09-30 16:28:05,507: INFO/MainProcess] Scheduler: Sending due task task_21 (main.run)
+[2019-09-30 16:28:05,509: INFO/MainProcess] Scheduler: Sending due task task_40 (main.run)
+[2019-09-30 16:28:05,510: INFO/MainProcess] Scheduler: Sending due task task_12 (main.run)
+[2019-09-30 16:28:05,512: INFO/MainProcess] Scheduler: Sending due task task_0 (main.run)
+[2019-09-30 16:28:05,514: INFO/MainProcess] Scheduler: Sending due task task_42 (main.run)
+
+## RedisBeat:
+[2019-09-30 17:29:11,967: INFO/MainProcess] add task entry: task_10 to publisher
+[2019-09-30 17:29:11,970: INFO/MainProcess] add task entry: task_11 to publisher
+[2019-09-30 17:29:11,973: INFO/MainProcess] add task entry: task_12 to publisher
+[2019-09-30 17:29:11,976: INFO/MainProcess] add task entry: task_13 to publisher
+[2019-09-30 17:29:11,979: INFO/MainProcess] add task entry: task_14 to publisher
+[2019-09-30 17:29:11,983: INFO/MainProcess] add task entry: task_15 to publisher
+[2019-09-30 17:29:11,986: INFO/MainProcess] add task entry: task_16 to publisher
+[2019-09-30 17:29:11,989: INFO/MainProcess] add task entry: task_17 to publisher
+[2019-09-30 17:29:11,992: INFO/MainProcess] add task entry: task_18 to publisher
+[2019-09-30 17:29:11,995: INFO/MainProcess] add task entry: task_19 to publisher
+[2019-09-30 17:29:11,998: INFO/MainProcess] add task entry: task_2 to publisher
+[2019-09-30 17:29:12,003: INFO/MainProcess] add task entry: task_20 to publisher
+[2019-09-30 17:29:12,006: INFO/MainProcess] add task entry: task_22 to publisher
+[2019-09-30 17:29:12,009: INFO/MainProcess] add task entry: task_26 to publisher
+[2019-09-30 17:29:12,012: INFO/MainProcess] add task entry: task_43 to publisher
+[2019-09-30 17:29:12,016: INFO/MainProcess] add task entry: task_44 to publisher
+[2019-09-30 17:29:12,019: INFO/MainProcess] add task entry: task_45 to publisher
+[2019-09-30 17:29:12,022: INFO/MainProcess] add task entry: task_46 to publisher
