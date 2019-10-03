@@ -1,3 +1,5 @@
+# The file is to test the speed of 2 schedulers by running 1000 tasks, which are scheduled to run every 1 second.
+
 from celery import Celery
 from time import sleep
 
@@ -8,14 +10,10 @@ app = Celery('tasks')
 def task_1():
     print("task_1")
 
-app.conf.update(
-    redbeat_redis_url="redis://localhost:6379/1",
-    broker_url="amqp://@localhost:5672"
-    # CELERY_REDIS_SCHEDULER_URL = 'redis://localhost:6379/1',
-    # CELERY_REDIS_SCHEDULER_KEY_PREFIX = 'tasks:meta:'
-)
-
-# app.config_from_object('confs.redbeat')
+# Uncomment this to use redbeat as scheduler instead of PersistentScheduler
+# app.conf.update(
+#     redbeat_redis_url="redis://localhost:6379/1",
+# )
 
 app.conf.beat_schedule = {}
 for num in range(1000):

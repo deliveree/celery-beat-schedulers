@@ -1,3 +1,2 @@
-redisbeat
 celery
 celery-redbeat

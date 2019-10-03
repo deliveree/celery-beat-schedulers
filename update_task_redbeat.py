@@ -11,8 +11,6 @@ app.conf.update(
 def print_content(text):
     print(text)
 
-# def update_task(content):
-
 app.conf.beat_schedule = {
     "print_content": {
         "task": 'update_task_redbeat.print_content',

@@ -1,6 +1,7 @@
+Logs within 5 mins running beat
+
 ## PersistentScheduler:
 
-Logs within 5 mins running beat
 ### Logs
 [2019-10-01 17:08:50,567: INFO/MainProcess] Scheduler: Sending due task task_190 (main.run)
 [2019-10-01 17:08:50,573: INFO/MainProcess] Scheduler: Sending due task task_982 (main.run)
@@ -32,42 +33,6 @@ Logs within 5 mins running beat
 
 Avg: 5 - 7 ms
 
-## RedisBeat:
-
-### Retrieve value from redis
-Refer this snippet on using python to get value from redis
-https://bitbucket.org/snippets/inspireventures/qAgey5/get_query_from_redis
-
-### Logs
-[2019-10-01 17:19:24,323: INFO/MainProcess] Scheduler: Sending due task task_365 (main.run)
-[2019-10-01 17:19:24,325: INFO/MainProcess] Scheduler: Sending due task task_366 (main.run)
-[2019-10-01 17:19:24,328: INFO/MainProcess] Scheduler: Sending due task task_367 (main.run)
-[2019-10-01 17:19:24,332: INFO/MainProcess] Scheduler: Sending due task task_368 (main.run)
-[2019-10-01 17:19:24,334: INFO/MainProcess] Scheduler: Sending due task task_369 (main.run)
-[2019-10-01 17:19:24,337: INFO/MainProcess] Scheduler: Sending due task task_37 (main.run)
-[2019-10-01 17:19:24,340: INFO/MainProcess] Scheduler: Sending due task task_370 (main.run)
-[2019-10-01 17:19:24,341: INFO/MainProcess] Scheduler: Sending due task task_371 (main.run)
-[2019-10-01 17:19:24,365: INFO/MainProcess] Scheduler: Sending due task task_372 (main.run)
-[2019-10-01 17:19:24,374: INFO/MainProcess] Scheduler: Sending due task task_373 (main.run)
-[2019-10-01 17:19:24,376: INFO/MainProcess] Scheduler: Sending due task task_374 (main.run)
-[2019-10-01 17:19:24,380: INFO/MainProcess] Scheduler: Sending due task task_375 (main.run)
-[2019-10-01 17:19:24,383: INFO/MainProcess] Scheduler: Sending due task task_376 (main.run)
-[2019-10-01 17:19:24,385: INFO/MainProcess] Scheduler: Sending due task task_377 (main.run)
-[2019-10-01 17:19:24,387: INFO/MainProcess] Scheduler: Sending due task task_378 (main.run)
-[2019-10-01 17:19:24,389: INFO/MainProcess] Scheduler: Sending due task task_379 (main.run)
-[2019-10-01 17:19:24,391: INFO/MainProcess] Scheduler: Sending due task task_38 (main.run)
-[2019-10-01 17:19:24,393: INFO/MainProcess] Scheduler: Sending due task task_380 (main.run)
-[2019-10-01 17:19:24,395: INFO/MainProcess] Scheduler: Sending due task task_381 (main.run)
-[2019-10-01 17:19:24,397: INFO/MainProcess] Scheduler: Sending due task task_382 (main.run)
-[2019-10-01 17:19:24,399: INFO/MainProcess] Scheduler: Sending due task task_383 (main.run)
-[2019-10-01 17:19:24,400: INFO/MainProcess] Scheduler: Sending due task task_384 (main.run)
-[2019-10-01 17:19:24,402: INFO/MainProcess] Scheduler: Sending due task task_385 (main.run)
-[2019-10-01 17:19:24,404: INFO/MainProcess] Scheduler: Sending due task task_386 (main.run)
-[2019-10-01 17:19:24,406: INFO/MainProcess] Scheduler: Sending due task task_387 (main.run)
-[2019-10-01 17:19:24,408: INFO/MainProcess] Scheduler: Sending due task task_388 (main.run)
-[2019-10-01 17:19:24,409: INFO/MainProcess] Scheduler: Sending due task task_389 (main.run)
-
-Avg: 2 - 3 ms
 
 ## RedBeat:
 
@@ -114,4 +79,4 @@ hgetall redbeat:task_16
 [2019-10-01 17:32:07,885: INFO/MainProcess] add task entry: task_869 to publisher
 [2019-10-01 17:32:07,890: INFO/MainProcess] add task entry: task_87 to publisher
 
-Avg: 2 - 3 ms
+Avg: 4 - 7 ms
