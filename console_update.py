@@ -5,19 +5,21 @@
 
 # Then in python console, use these to update
 
+from datetime import timedelta
 import update_task_redbeat
 from redbeat import RedBeatSchedulerEntry as Entry
-from celery.schedules import crontab
+from celery.schedules import schedule
 
 app = update_task_redbeat.app
 e = Entry.from_key('redbeat:task_259',  app=app)
 
-# Update schedule
-e.schedule = crontab(minute=1)
+# Update schedule to 5 seconds
+e.schedule = schedule(5)
 e.save()
 
-# Update metadata
-e.content = "Goodbye"
+# Update metadata to print Goodbye instead of Hello
+# We simply change the args passed to the task
+e.args = ["Goodbye"]
 e.save()
 
 # Delete task

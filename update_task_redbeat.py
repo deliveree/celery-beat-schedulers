@@ -1,8 +1,11 @@
 from celery import Celery
 
 app = Celery('tasks')
-app.config_from_object('confs.redbeat')
 
+app.conf.update(
+    redbeat_redis_url="redis://localhost:6379/1",
+    broker_url="amqp://@localhost:5672"
+)
 
 @app.task
 def print_content(text):
